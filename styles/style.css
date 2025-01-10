@@ -94,7 +94,7 @@ margin-left: 160px;
 margin-top: 30px;
 }
 .pillar-div{
-  border-radius: 18px;
+border-radius: 18px;
 padding: 24px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
@@ -117,8 +117,95 @@ line-height: 24px;
 margin-top: 20px;
 }
 .pillar-content{
+  w
 width: 240px;
 height: 72px;
 margin-top: 15px;
 }
 /* vision Section style */
+
+.vision-heading-1{
+margin-bottom: 20px;
+margin-top: 70px;
+font-size: 40px;
+font-weight: 700;
+margin-left: 180px;
+}
+.vision-content-2{
+  width: 1100px;
+margin-top: 20px;
+margin-left: 180px;
+font-size: 16px;
+font-weight: 400;
+}
+.vision-section{
+width: 1170px;
+height: 325px;
+margin-left: 180px;
+display: flex;
+margin-top: 50px;
+}
+.vision-div{
+width: 380px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+box-sizing: border-box;
+border-radius: 16px;
+margin-right: 20px;
+
+
+}
+.vision-img{
+width: 62px;
+height: 62px;
+margin-top: 40px;
+margin-left: 40px;
+}
+.vision-heading{
+width: 346.67px;
+height: 24px;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+margin-top: 20px;
+margin-left: 40px;
+
+}
+.vision-content{
+
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 30px;
+
+}
+.vision-button{
+width: 122px;
+height: 41px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+margin-left: 40px;
+margin-top: 30px;
+}
+.bg-color-1{
+ background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-color-2{
+ background-color: rgb(198, 228, 214);
+}
+.bg-color-3{
+background-color: rgb(247, 235, 207);
+}
+.btn-1{
+background-color:rgb(84, 144, 245) ;
+}
+.btn-2{
+background-color:rgb(9, 161, 92) ;
+}
+.btn-3{
+background-color:rgb(255, 194, 57);
+}
+
