@@ -78,7 +78,7 @@ margin-top: 24px;
 
 }
 .pillars-heading{
-  width: 1280px;
+width: 1280px;
 height: 48px;
 font-size: 40px;
 font-weight: 700;
@@ -117,7 +117,7 @@ line-height: 24px;
 margin-top: 20px;
 }
 .pillar-content{
-  w
+
 width: 240px;
 height: 72px;
 margin-top: 15px;
@@ -154,8 +154,6 @@ background: rgba(84, 144, 245, 0.2);
 box-sizing: border-box;
 border-radius: 16px;
 margin-right: 20px;
-
-
 }
 .vision-img{
 width: 62px;
@@ -171,10 +169,8 @@ font-weight: 700;
 line-height: 24px;
 margin-top: 20px;
 margin-left: 40px;
-
 }
 .vision-content{
-
 font-size: 16px;
 font-weight: 400;
 margin-top: 20px;
@@ -208,4 +204,43 @@ background-color:rgb(9, 161, 92) ;
 .btn-3{
 background-color:rgb(255, 194, 57);
 }
+
+
+/* Dr Yunus section */
+
+.dr-yunus-section{
+width: 1170px;
+height: 220px;
+margin-left: 180px;
+margin-top: 32px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: top 20px left 18px;
+}
+.dr-yunus-section-content{
+margin-top: 48px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 20px;
+margin-right: 45px;
+}
+.dr-yunus-section-name{
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+margin-top: 12px;
+margin-left: 20px;
+}
+.dr-yunus-section-content-2{
+  margin-top: 4px;
+margin-left: 20px;
+color: rgba(14, 14, 14, 0.6);
+}
+
+
 
