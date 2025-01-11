@@ -614,5 +614,25 @@ height: 19px;
 font-size: 16px;
 font-weight: 400;
 }
+ /* footer section */
+ .footer-sec{
+width: 1518px;
+height: 226px;
+background: rgb(255, 255, 255);
+margin-top: 80px;
+ }
+ .footer-heading{
+text-align: center;
+padding-top: 50px;
+font-size: 32px;
+font-weight: 700;
+ }
+ .footer-img{
+margin-top: 64px;
+text-align: center;
 
+ }
+ .f-img{
+  margin-left: 20px;
+ }
 
