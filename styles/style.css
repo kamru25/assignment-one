@@ -514,6 +514,7 @@ border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 background: rgb(255, 255, 255);
 margin-left: 270px;
 
+
 }
 .donate-amount-set{
 width: 187px;
@@ -523,6 +524,7 @@ font-weight: 400;
 text-align: center;
 margin-top: 20px;
 margin-left: 406px;
+
 
 }
 
@@ -538,9 +540,79 @@ margin-left: 700px;
 color: white;
 font-size: 18px;
 font-weight: 600;
-
 }
 
+/* subscribe area */
+.subscribe-area{
+width: 1170px;
+height: 395px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+margin-top: 80px;
+margin-left: 180px;
+}
+.subscribe-area-heading{
+  width: 622px;
+height: 48px;
+padding-top: 80px;
+margin-left: 100px;
+text-align: center;
+margin: 0 auto;
+font-size: 40px;
+font-weight: 700;
+}
+.subscribe-area-text{
+width: 580px;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding: 40px;
+text-align: center;
+margin: 0 auto;
+padding-top: 10px;
+}
 
+/* subcribe area */
+.sub-email-area{
+width: 700px;
+height: 55px;
+border-radius: 6px 0px 0px 6px;
+background: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+text-align: left;
+margin-left: 260px;
+}
+
+.email{
+width: 157px;
+height: 19px;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-left: 40px;
+border: none;
+}
+.subscribe-btn{
+width: 150px;
+height: 56px;
+border-radius: 0px 6px 6px 0px;
+background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+color: white;
+border: none;
+}
+.subscribe-btn-div{
+  
+}
+.subscribe-area-last-content{
+  margin-top: 22px;
+  margin-left: 489px;
+  width: 622px;
+height: 19px;
+font-size: 16px;
+font-weight: 400;
+}
 
 
