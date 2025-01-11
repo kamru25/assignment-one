@@ -3,7 +3,8 @@
   padding: 0;
 }
 body{
-  background-color: #c1d6d5;
+  background-color: #e0fbfc;
+  @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 }
 /* header-section */
 
@@ -29,19 +30,21 @@ font-weight: 600;
 padding: 15px 30px 15px 30px;
 border: 1px solid rgb(0, 106, 80);
 border-radius: 10px;
-background-color: #c1d6d5;;
+background-color: #e0fbfc;;
+}
+.header-item-2:hover{
+   background: rgb(0, 106, 80);
+  box-shadow: rgb(0, 106, 80);
+  color: #ffffff;
 }
 /*  hero section */
 .hero-area{
-  background-color: rgb(198, 228, 214);
+  background-color: #49bf5a;
   border-radius: 28px;
 width: 1170px;
 height: 560px;
 margin: 0 auto;
 display: flex;
-
-
-
 }
 .hero-content{
 margin-top: 200px;
@@ -53,6 +56,7 @@ height: 29px;
 font-size: 24px;
 font-weight: 500;
 line-height: 29px;
+color: rgba(14, 14, 14, 0.5);
 }
 .hero-heading{
 width: 622px;
@@ -74,7 +78,13 @@ border: none;
 font-size: large;
 color: white;
 margin-top: 24px;
+}
 
+.hero-button:hover{
+  
+  background: #ff1b0a;
+  box-shadow: 0 0 5px #ff1b0a, 0 0  #ff1b0a, 0 0  #ff1b0a, 0 0 #ff1b0a;
+  color: #333;
 
 }
 .pillars-heading{
@@ -98,10 +108,11 @@ border-radius: 18px;
 padding: 24px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
+background: white;
 margin: 0px 20px; 
 width: 262px;
 height: 244px;
+
 
 }
 .pillar-img{
@@ -118,9 +129,10 @@ margin-top: 20px;
 }
 .pillar-content{
 
-width: 240px;
+width: 220px;
 height: 72px;
 margin-top: 15px;
+
 }
 /* vision Section style */
 
@@ -185,9 +197,16 @@ border-radius: 8px;
 background: rgb(84, 144, 245);
 margin-left: 40px;
 margin-top: 30px;
+border: none;
+}
+.vision-button:hover{
+   background: #ffffff;
+  box-shadow: #ffffff;
+  color: #333;
+
 }
 .bg-color-1{
- background-color: rgba(84, 144, 245, 0.2);
+ background-color: rgba(84, 144, 245, 0.2);;
 }
 .bg-color-2{
  background-color: rgb(198, 228, 214);
@@ -216,7 +235,7 @@ margin-top: 32px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
-background: rgb(255, 255, 255);
+background: white;
 background-image: url(../assets/quote-bg.png);
 background-repeat: no-repeat;
 background-position: top 20px left 18px;
@@ -300,6 +319,9 @@ height: 92px;
 height: 19px;
 margin-left: 10px;
 margin-top: 38px;
+color: rgb(14, 14, 14);
+font-size: 16px;
+font-weight: 600;
 
 }
 .opinion-header-1{
@@ -325,13 +347,19 @@ border: 1px solid rgb(14, 14, 14);
 border-radius: 4px;
 box-sizing: border-box;
 }
+.button:hover{
+   background: #f5f2c4;
+  box-shadow: #f5f2c4;
+  color: #333;
+}
+
 /* recent text section */
 .recent-heading{
 width: 1170px;
 height: 48px;
 font-size: 40px;
 font-weight: 700;
-margin-left: 190px;
+margin-left: 180px;
 }
 .recent-text{
 width: 1100px;
@@ -340,7 +368,7 @@ height: 48px;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-margin-left: 190px;
+margin-left: 180px;
 }
 
 
@@ -429,11 +457,7 @@ font-size: 16px;
 font-weight: 400;
 margin-top: 12px;
 }
-.satellite-section-2-img{
- 
- 
- 
-}
+
 .satelite-section-2-main-img{
  
   margin-left:15px;
@@ -453,6 +477,12 @@ color: white;
 border: none;
 }
 
+.satellite-btn:hover{
+   background: #7fdbd7;
+  box-shadow: #7fdbd7;
+  color: #000000;
+}
+
 
 
 /* Donate  Section */
@@ -462,6 +492,11 @@ margin-top: 80px;
 height: 48px;
 font-size: 40px;
 font-weight: 700;
+}
+.donate-amount-div:hover{
+    background: #0c1ff2;
+  box-shadow: #0c1ff2;
+  color: #ffffff;
 }
 .donate-text{
   text-align: center;
@@ -487,7 +522,7 @@ height: 128px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
-background: rgb(255, 255, 255);
+background:white;
 margin: 0px 24px;
 }
 .donate-amount{
@@ -511,7 +546,7 @@ width: 1000px;
 height: 64px;
 box-sizing: border-box;
 border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
+background: white;
 margin-left: 270px;
 
 
@@ -540,6 +575,11 @@ margin-left: 700px;
 color: white;
 font-size: 18px;
 font-weight: 600;
+}
+.dnt-buton:hover{
+  background: #7fdbd7;
+  box-shadow: #7fdbd7;
+  color: #000000;
 }
 
 /* subscribe area */
@@ -570,66 +610,71 @@ padding: 40px;
 text-align: center;
 margin: 0 auto;
 padding-top: 10px;
+color: rgba(14, 14, 14, 0.5);
 }
 
 /* subcribe area */
 .sub-email-area{
-width: 700px;
-height: 55px;
-border-radius: 6px 0px 0px 6px;
-background: rgb(255, 255, 255);
-display: flex;
-justify-content: space-between;
-text-align: left;
-margin-left: 260px;
+ width: 700px;
+ height: 55px;
+ border-radius: 6px 0px 0px 6px;
+ background: white;
+ display: flex;
+ justify-content: space-between;
+ text-align: left;
+ margin-left: 260px;
 }
 
 .email{
-width: 157px;
-height: 19px;
-font-size: 16px;
-font-weight: 400;
-margin-top: 20px;
-margin-left: 40px;
-border: none;
+ width: 157px;
+ height: 19px;
+ font-size: 16px;
+ font-weight: 400;
+ margin-top: 20px;
+ margin-left: 40px;
+ border: none;
 }
 .subscribe-btn{
-width: 150px;
-height: 56px;
-border-radius: 0px 6px 6px 0px;
-background: rgb(0, 106, 80);
-font-size: 18px;
-font-weight: 600;
-color: white;
-border: none;
+ width: 150px;
+ height: 56px;
+ border-radius: 0px 6px 6px 0px;
+ background: rgb(0, 106, 80);
+ font-size: 18px;
+ font-weight: 600;
+ color: white;
+ border: none;
 }
-.subscribe-btn-div{
-  
+.subscribe-btn:hover{
+ background: #ff0000;
+ box-shadow: #ff0000;
+ color: #000000;
 }
+
 .subscribe-area-last-content{
-  margin-top: 22px;
-  margin-left: 489px;
-  width: 622px;
-height: 19px;
-font-size: 16px;
-font-weight: 400;
+margin-top: 22px;
+ margin-left: 489px;
+ width: 622px;
+ height: 19px;
+ font-size: 16px;
+ font-weight: 400;
+ color: rgba(14, 14, 14, 0.5);
 }
  /* footer section */
  .footer-sec{
-width: 1518px;
-height: 226px;
-background: rgb(255, 255, 255);
-margin-top: 80px;
+ width: 1518px;
+ height: 226px;
+ background: rgb(255, 255, 255);
+ margin-top: 80px;
  }
  .footer-heading{
-text-align: center;
-padding-top: 50px;
-font-size: 32px;
-font-weight: 700;
+ text-align: center;
+ padding-top: 50px;
+ font-size: 32px;
+ font-weight: 700;
  }
  .footer-img{
-margin-top: 64px;
-text-align: center;
+ margin-top: 64px;
+ text-align: center;
 
  }
  .f-img{
